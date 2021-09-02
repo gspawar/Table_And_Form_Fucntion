@@ -28,7 +28,7 @@ const InputForm = (props) => {
                             setFullName(e.target.value)
                     }}/>
 
-                    <input value = {mobile} id = "s" type = "text"
+                    <input value = {mobile} id = "s" type = "number"
                         placeholder = "Enter A MobileNo..."
                         onChange = {(e) => {
                             setMobile(e.target.value)
